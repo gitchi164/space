@@ -1,0 +1,48 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color:black;
+    color:#C9D1d9;
+  }
+  
+  h1{
+    color:darkcyan;
+  }
+  
+  ul > li{
+    font-weight: bold;
+  }
+  
+  ul li:before{
+    content: "🛰️";
+  }
+  
+  h1 + p{
+    background-color: gray;
+  }
+  
+  p::first-letter{
+    color:orange;
+    font-size:200%
+  }
+
+
+  a{
+color: whitesmoke;
+    text-decoration: none;
+    margin:25px;
+    font-weight: bold;
+    margin-top: 32px;
+  }
+  
+  a:hover{
+    color:lightblue;
+  }
+
+  p:not(:first-of-type){
+    text-decoration: underline;
+  }
+
+
+  ul li:nth-child(3){
+    background-color: gray;
+  }
